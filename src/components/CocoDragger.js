@@ -23,8 +23,8 @@ export default function Ball() {
                         textAlign: 'center'
                     }}
                     drag
-                    dragTransition={{ bounceStiffness: 500, bounceDamping: 20 }}
-                    dragElastic={0.5}
+                    dragTransition={{ bounceStiffness: 700, bounceDamping: 20 }}
+                    dragElastic={0.2}
                     dragControls={controls}
                     whileTap={{ cursor: "grabbing" }}
                     whileDrag={{ scale: 1.2 }}

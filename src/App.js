@@ -1,13 +1,12 @@
 import CocoDragger from './components/CocoDragger';
 import ButtonPrinter from './components/ButtonPrinter';
-import CocoResizer from './components/CocoResizer';
-
+import CocoAnimator from './components/CocoAnimator'
 function App() {
   return (
     <>
       <ButtonPrinter />
       <CocoDragger />
-      <CocoResizer />
+      <CocoAnimator/>
     </>
   )
 }

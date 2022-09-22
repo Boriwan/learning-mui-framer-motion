@@ -22,7 +22,7 @@ export default function ButtonPrinter() {
                     color: "aqua",
                 }}
                 onClick={() => { printCoco() }}
-            >Print Coconuts 🥥</Button>
+            >Show Me Coconuts 🥥</Button>
 
             <IconButton
                 aria-label='delete'
