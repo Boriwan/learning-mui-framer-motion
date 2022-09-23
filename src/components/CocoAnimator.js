@@ -1,7 +1,8 @@
 import React from 'react'
+import { useState } from "react";
 import { motion } from "framer-motion"
 import Slider from '@mui/material/Slider';
-import { useState } from "react";
+import Button from '@mui/material/Button';
 
 export default function CocoResizer() {
     const [x, setX] = useState(0)
@@ -91,6 +92,14 @@ export default function CocoResizer() {
                     alignItems: "center",
                 }}
                     onChange={changeRotation} aria-label="Default" valueLabelDisplay="auto" min={0} max={360} />
+
+                <Button
+                    variant="contained"
+                    sx={{
+                        color: "aqua",
+                    }}
+                    onClick={() => { setX(0); setY(0); setScale(1); setRotation(0) }}
+                >Reset</Button>
             </div>
 
         </div>
