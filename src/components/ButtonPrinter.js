@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import { IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
+import Skeleton from '@mui/material/Skeleton';
 
 export default function ButtonPrinter() {
 
@@ -33,7 +34,13 @@ export default function ButtonPrinter() {
             ><DeleteIcon /></IconButton>
 
             <div id='box'>
-                <div id='coco'></div>
+                <Skeleton
+                    id="coco"
+                    sx={{
+                        bgcolor: 'rgb(230, 255, 242, 0.655)                        ' }}
+                    variant = "rounded"
+                    animation="wave"
+                        />
             </div>
         </>
     )
