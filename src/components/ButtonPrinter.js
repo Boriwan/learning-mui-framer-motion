@@ -23,7 +23,7 @@ export default function ButtonPrinter() {
                     color: "aqua",
                 }}
                 onClick={() => { printCoco() }}
-            >Show Me Coconuts 🥥</Button>
+            >Show Me Your 🥥</Button>
 
             <IconButton
                 aria-label='delete'
@@ -37,7 +37,7 @@ export default function ButtonPrinter() {
                 <Skeleton
                     id="coco"
                     sx={{
-                        bgcolor: 'rgb(127, 255, 212, 0.855)                        ' }}
+                        bgcolor: 'rgb(127, 255, 212, 0.655)                        ' }}
                     variant = "rounded"
                     animation="wave"
                         />
