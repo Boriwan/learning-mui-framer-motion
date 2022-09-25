@@ -19,7 +19,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(244, 145, 231);
-    background-color: aquamarine;
+    background-color: burlywood;
     text-align: center;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: aquamarine;
+    color: rgb(127, 255, 212);
 }
 
 ul,
@@ -91,4 +91,9 @@ li:last-child {
   background-color: #999;
   border-radius: 10px;
   margin-top: 12px;
+}
+
+#menu {
+    color:aquamarine;
+    background-color: burlywood;
 }

@@ -22,7 +22,7 @@ function Item() {
     return (
 
         <motion.li layout onClick={toggleOpen} initial={{ borderRadius: 10 }}>
-            <motion.div className="avatar" layout>🥥</motion.div>
+            <motion.div className="avatar" layout>🏝</motion.div>
             <AnimatePresence>{isOpen && <Content />}</AnimatePresence>
         </motion.li>
     );

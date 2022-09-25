@@ -37,7 +37,7 @@ export default function ButtonPrinter() {
                 <Skeleton
                     id="coco"
                     sx={{
-                        bgcolor: 'rgb(222, 184, 135, 0.255)                        ' }}
+                        bgcolor: 'rgb(127, 255, 212, 0.855)                        ' }}
                     variant = "rounded"
                     animation="wave"
                         />
